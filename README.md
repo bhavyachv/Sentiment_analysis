@@ -20,7 +20,7 @@ To run this project, you will need **Python 3.8+** installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Review-Sentiment-Analyzer.git](https://github.com/YOUR_USERNAME/Review-Sentiment-Analyzer.git)
+   git clone [https://github.com/bhavyachv/Review-Sentiment-Analyzer.git](https://github.com/YOUR_USERNAME/Review-Sentiment-Analyzer.git)
 
 Navigate to the project folder and install the requirements: pip install -r requirements.txt
 
