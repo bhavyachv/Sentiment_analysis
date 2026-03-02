@@ -1,30 +1,29 @@
-# Sentiment Analysis Predictor
+# 🧠 E-Commerce Review Sentiment Analyzer
 
-This is a Natural Language Processing (NLP) machine learning project that analyzes text (like customer reviews) to predict whether the sentiment is positive or negative.
+## 📌 Overview
+An AI-powered Natural Language Processing (NLP) application that automatically reads e-commerce product reviews and classifies them as "Positive" or "Negative." This tool is designed to help businesses automate customer feedback analysis.
 
-## 📂 Files Included in this Project:
-* **app.py**: The main web application code.
-* **model.py**: The code used to process the text and train the machine learning model.
-* **data_generator.py**: The script used to generate the sample dataset.
-* **reviews.csv**: The dataset of text reviews used to train and test the model.
-* **sentiment_model.pkl**: The finished, trained machine learning model.
-* **vectorizer.pkl**: The saved text vectorizer used to convert text inputs into numerical data for the model.
+## 🚀 Features
+* **NLP Processing:** Uses `CountVectorizer` to convert unstructured text data into numerical features.
+* **Machine Learning:** Utilizes the Naive Bayes (`MultinomialNB`) algorithm, which is highly efficient for text classification.
+* **Instant Analysis:** A Streamlit interface that allows users to type or paste a review and get instant sentiment feedback.
 
-## 🛠️ Built With:
-* Python
-* Machine Learning (Scikit-Learn)
-* Pandas & NumPy
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Libraries:** Pandas, Scikit-Learn, Joblib
+* **Frontend:** Streamlit
 
-## ⚙️ Requirements
-To run this project on your computer, you will need Python installed, along with the following libraries:
-* `pandas`
-* `scikit-learn`
-* `flask` (or `streamlit` - depending on what you used for the web app)
+## 📋 Prerequisites & Requirements
+To run this project, you will need **Python 3.8+** installed on your machine. 
 
-## 🚀 How to Run the App
-1. Download or clone this repository to your local machine.
-2. Open your terminal or command prompt and navigate to the project folder.
-3. Install the required libraries by running:
-   `pip install pandas scikit-learn`
-4. Run the main application code:
-   `python app.py`
+## 💻 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/Review-Sentiment-Analyzer.git](https://github.com/YOUR_USERNAME/Review-Sentiment-Analyzer.git)
+
+Navigate to the project folder and install the requirements: pip install -r requirements.txt
+
+Run the Streamlit app: streamlit run app.py
+
+****
